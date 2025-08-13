@@ -108,7 +108,7 @@ contract DisasterTraining {
     }
 
     // Book a training slot with a trainer
-    // slot: 1 to N, for example 1: 9:00–9:30, 2: 9:31–10:00, 3: 10:01–10:30
+    // slots: 1: 9:00–9:30, 2: 9:31–10:00, 3: 10:01–10:30
     function bookTrainingSlot(address trainer, uint8 slotIndex) external payable onlyParticipant {
         require(userRoles[trainer] == UserRole.Trainer, "Not a valid trainer");
         require(slotIndex >= 1 && slotIndex <= 3, "Invalid slot");

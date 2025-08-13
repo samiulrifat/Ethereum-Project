@@ -340,11 +340,11 @@
 	},
 	"sources": {
 		"contracts/DisasterTraining.sol": {
-			"keccak256": "0x478608f5955447618804fec81594aeaea53fdb4714bc2982f81a0d66f8bd0410",
+			"keccak256": "0xa611383e0107820df68911713aa9170c2e1255f574b91f39f91f3d1fb341d650",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5d1610a1dc6e309961b0ca8406193e200bafd3448cb0ba5f76973073ff95c96e",
-				"dweb:/ipfs/Qme4BRB68SiedKAoETctfu7K48VcmKqN6jmdE3JRT8SkiC"
+				"bzz-raw://749e07e773f0b19348f4ca7a97bb64e310be59963937bd223152b79ce1cdfb33",
+				"dweb:/ipfs/QmYzkaosweDHL4ZioFuivNfhFnNhNHc1rsgLKm6ygeeHe6"
 			]
 		}
 	},
