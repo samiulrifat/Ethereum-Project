@@ -108,10 +108,10 @@ contract DisasterTraining {
     }
 
     // Book a training slot with a trainer
-    // slots: 1: 9:00–9:30, 2: 9:31–10:00, 3: 10:01–10:30
+    // slots: 1: 9:00–9:30, 2: 9:31–10:00, 3: 10:01–10:30 4: 10:31-11.00 5: 11.01-11.30 6: 11.31-12.00
     function bookTrainingSlot(address trainer, uint8 slotIndex) external payable onlyParticipant {
         require(userRoles[trainer] == UserRole.Trainer, "Not a valid trainer");
-        require(slotIndex >= 1 && slotIndex <= 3, "Invalid slot");
+        require(slotIndex >= 1 && slotIndex <= 6, "Invalid slot");
         require(msg.value == BOOKING_FEE, "Incorrect fee");
         TrainerSchedule storage ts = trainerSchedules[trainer];
         require(ts.slotToParticipant[slotIndex] == address(0), "Trainer already booked");
