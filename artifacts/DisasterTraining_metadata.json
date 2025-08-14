@@ -303,9 +303,9 @@
 				"name": "viewTrainerSchedule",
 				"outputs": [
 					{
-						"internalType": "address[3]",
+						"internalType": "address[6]",
 						"name": "",
-						"type": "address[3]"
+						"type": "address[6]"
 					}
 				],
 				"stateMutability": "view",
@@ -340,11 +340,11 @@
 	},
 	"sources": {
 		"contracts/DisasterTraining.sol": {
-			"keccak256": "0x42ab6e32ac7f363f7f53b223f123662d369b2beecfb235623e0b0b6498cca3b4",
+			"keccak256": "0xf2452775814f6997e873ed03c0a795f631cb46a211f31dd2d5710af685428afc",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://13f9068eea1e450380116c02bad7db03ef389d42216d91436e5e6ede9cc7dae7",
-				"dweb:/ipfs/Qma24knwvnhCAgfTtvXqXpHqxRWJrSHCE2d5T7M9ZNS8zw"
+				"bzz-raw://4ac031193321e0d4186a0ccc85bbba07bd4315eaa5099a722a43060eac2844e1",
+				"dweb:/ipfs/QmcprYktS8YPT9T9SyE7hBSEg6JiRZAmz7DBq5nHSYv2bN"
 			]
 		}
 	},

@@ -124,10 +124,10 @@ contract DisasterTraining {
     }
 
     // View a trainer's schedule
-    function viewTrainerSchedule(address trainer) public view returns (address[3] memory) {
+    function viewTrainerSchedule(address trainer) public view returns (address[6] memory) {
         require(userRoles[trainer] == UserRole.Trainer, "Not a trainer");
-        address[3] memory slots;
-        for (uint8 i = 1; i <= 3; i++) {
+        address[6] memory slots;
+        for (uint8 i = 1; i <= 6; i++) {
             slots[i-1] = trainerSchedules[trainer].slotToParticipant[i];
         }
         return slots;
